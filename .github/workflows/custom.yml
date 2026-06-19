@@ -29,8 +29,6 @@ jobs:
        - name: unit test
          run: |
           pytest
-          coverage run -m pytest
-          coverage xml
 
        - name: unit test
          run: |
