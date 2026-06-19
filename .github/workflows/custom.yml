@@ -34,3 +34,4 @@ jobs:
        - name: coverage xml
          run: |
            coverage xml
+           ls -l
