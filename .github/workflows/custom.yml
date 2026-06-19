@@ -24,6 +24,7 @@ jobs:
        - name: install dependencys
          run: |
            pip install -r requirements.txt
+           pip install pytest
 
        - name: unit test
          run: |
