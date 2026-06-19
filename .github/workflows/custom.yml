@@ -31,6 +31,6 @@ jobs:
           pytest
           coverage run -m pytest
 
-       - name: unit test
+       - name: coverage xml
          run: |
            coverage xml
